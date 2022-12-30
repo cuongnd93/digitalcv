@@ -1,0 +1,28 @@
+@media (max-width: 568px) {
+  .nav-flex,
+  .style-link {
+    display: block;
+  }
+  .style-link {
+    padding-bottom: 0px;
+  }
+  .container-certificate {
+    display: block;
+  }
+
+  .cer {
+    border-right: solid 1px #d6c08d;
+    border-bottom: solid 1px #d6c08d;
+  }
+  .container-project {
+    display: block;
+  }
+  .cv-project {
+    margin-bottom: 20px;
+  }
+  .container-contact,
+  .container-contact i {
+    gap: 0px;
+    margin-left: 25px;
+  }
+}

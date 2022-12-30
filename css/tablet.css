@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .nav .hidden {
+    display: none;
+  }
+  .style-link {
+    padding: 15px 0px 15px 5px;
+  }
+  .target,
+  .personal-info {
+    height: 400px;
+  }
+  .container-contact,
+  .container-contact i {
+    gap: 30px;
+    margin-left: 25px;
+  }
+}
