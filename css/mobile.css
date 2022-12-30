@@ -2,6 +2,7 @@
   .nav-flex,
   .style-link {
     display: block;
+    width: 100%;
   }
   .style-link {
     padding-bottom: 0px;
