@@ -22,8 +22,30 @@
   .job-info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
-    padding: 0px;
+  }
+  .ex-item {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+  .edu-item {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .act-item {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .hob-item {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .lag-item {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .skl-item {
+    grid-column: 2/3;
+    grid-row: 4/5;
   }
 }
