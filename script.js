@@ -4,6 +4,7 @@
 const personForm = document.querySelector('.person-form');
 const personInfor = document.querySelector('.person-infor');
 const submit = document.querySelector('.submit1');
+const messageEmail = document.querySelector('.message-email');
 
 let regex =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -19,7 +20,7 @@ submit.addEventListener('click', function () {
     personForm.classList.toggle('hidden');
     personInfor.classList.toggle('hidden');
   } else {
-    console.log('không chính xác, vui lòng nhập lại');
+    messageEmail.classList.remove('hidden');
   }
 });
 
