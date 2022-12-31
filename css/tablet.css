@@ -2,8 +2,12 @@
   .nav .nav-hidden {
     display: none;
   }
+
   .style-link {
-    padding: 15px 0px 15px 5px;
+    /* padding: 15px 0px 15px 5px; */
+    padding: 15px 0px;
+    width: 100%;
+    text-align: center;
   }
   .target,
   .personal-info {
@@ -14,11 +18,13 @@
     gap: 30px;
     margin-left: 25px;
   }
-   .container-project {
+
+  .container-project {
     font-size: 12px;
     margin-left: 0;
     margin-right: 0;
   }
+
   .job-info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
