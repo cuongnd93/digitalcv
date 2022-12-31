@@ -37,10 +37,7 @@
     border-right: none;
   }
   .job-info-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-    padding: 0px;
+    display: block;
   }
   .icon-cv {
     position: absolute;
