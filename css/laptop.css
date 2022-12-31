@@ -89,13 +89,12 @@ h1 {
   padding-top: 50px;
   padding-left: 40px;
 }
-/* thêm khoảng trắng giữa các Items cho phần thông tin nghề nghiệp */
+/* Tạo Grid layout cho phần thông tin nghề nghiệp */
 .job-info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px;
-  padding: 0px;
 }
 
 /* Thêm khoảng trắng giữa tiêu đề và nội dung cho phần thông tin nghề nghiệp */
