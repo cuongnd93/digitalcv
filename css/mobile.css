@@ -2,10 +2,13 @@
   .nav-flex,
   .style-link {
     display: block;
-    width: 100%;
+  }
+  .nav {
+    padding-left: 35px;
   }
   .style-link {
     padding-bottom: 0px;
+    text-align: left;
   }
   .container-certificate {
     display: block;
@@ -24,8 +27,9 @@
   .container-contact,
   .container-contact i {
     gap: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
+
   .container-project {
     margin-left: 30px;
     margin-right: 30px;
