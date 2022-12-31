@@ -129,6 +129,12 @@ dd {
   position: absolute;
   right: 40px;
 }
+.bi {
+  position: absolute;
+  top: 44px;
+  left: 25px;
+}
+
 /* style color, size cho list-type */
 li::marker {
   color: rgb(10, 138, 243);
@@ -277,6 +283,17 @@ td {
 /* xoá underline cho thẻ a CV cá nhân */
 .cv-canhan a {
   text-decoration: none;
+  position: relative;
+}
+.cv-canhan {
+  position: relative;
+}
+.icon-cv {
+  position: absolute;
+  left: 90px;
+  top: 6px;
+
+  font-size: 11px;
 }
 
 /* xoá border bị lồng nhau trong bảng */
