@@ -4,6 +4,8 @@
   padding: 0;
   font-size: 12px;
 }
+
+/* tạo kiểu cho vùng chứa dự án */
 .dgt {
   width: 100%;
 
@@ -11,20 +13,22 @@
   padding: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
-
+/* tạo màu nền cho các items */
 .container {
   background-color: rgb(231, 250, 250);
 }
+/* màu nền cho thự tự dự án */
 .bg-violet {
   background-color: rgb(203, 157, 247);
 }
+
 .digital {
-  background-color: blue;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
+/* chia cột, hàng  trong grid cho màn hình laptop */
 .goals {
   grid-row: 1/2;
 }
@@ -41,9 +45,10 @@
 .primary {
   grid-row: 2/3;
 }
+
+/* thêm border cho các Items  */
 .goals,
-.team,
-.timeline {
+.team {
   border-right: 10px solid blue;
 }
 .scopes,
@@ -51,7 +56,7 @@
   border-right: 10px solid blue;
   border-top: 10px solid blue;
 }
-
+/* Phần reposive cho tablet and mobile */
 /* Moblie */
 
 @media (max-width: 568px) {
@@ -61,10 +66,38 @@
   .in-out {
     display: block;
   }
+  .timeline {
+    border-right: 10px solid blue;
+  }
+  .goals,
+  .team {
+    border-bottom: 10px solid blue;
+  }
+  .goals,
+  .team,
+  .timeline,
+  .primary,
+  .scopes {
+    border-right: none;
+  }
 }
 
 @media (max-width: 768px) {
   .digital {
     display: block;
+  }
+  .timeline {
+    border-right: 10px solid blue;
+  }
+  .goals,
+  .team {
+    border-bottom: 10px solid blue;
+  }
+  .goals,
+  .team,
+  .timeline,
+  .primary,
+  .scopes {
+    border-right: none;
   }
 }
