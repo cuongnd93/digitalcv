@@ -14,4 +14,9 @@
     gap: 30px;
     margin-left: 25px;
   }
+   .container-project {
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
