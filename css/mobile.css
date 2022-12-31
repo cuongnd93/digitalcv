@@ -39,8 +39,13 @@
   .job-info-grid {
     display: grid;
     grid-template-columns: 1fr;
-
     gap: 15px;
     padding: 0px;
+  }
+  .icon-cv {
+    position: absolute;
+    left: 85px;
+    top: 5px;
+    font-size: 11px;
   }
 }
