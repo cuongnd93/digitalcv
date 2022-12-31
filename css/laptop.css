@@ -79,48 +79,22 @@ h1 {
   background-color: whitesmoke;
   height: 250px;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-left: 40px;
   padding-right: 30px;
 }
 .personal-info {
   background-color: rgb(248, 249, 250);
   height: 250px;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
-/* thêm khoảng trắng cho phần thông tin nghề nghiệp */
+/* thêm khoảng trắng giữa các Items cho phần thông tin nghề nghiệp */
 .job-info-grid {
-  /* display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
-  gap: 20px;
-  /* padding: 0px; */
-}
-
-/* style underline-level cho Ngôn ngữ và kỹ năng */
-.underline-level {
-  width: 30px;
-  height: 2px;
-  background-color: aqua;
-  display: inline-block;
-}
-.underline-level1 {
-  width: 30px;
-  height: 2px;
-  background-color: aqua;
-  display: inline-block;
-}
-.underline-level2 {
-  width: 30px;
-  height: 2px;
-  background-color: rgb(229, 231, 231);
-  display: inline-block;
-}
-/* Tạo khoảng trắng cho phần kỹ năng */
-.skill-container > div {
-  margin-right: 10px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  padding: 0px;
 }
 
 /* Thêm khoảng trắng giữa tiêu đề và nội dung cho phần thông tin nghề nghiệp */
@@ -137,7 +111,7 @@ h1 {
 dd {
   color: rgb(100, 99, 99);
 }
-/* Thêm border và padding cho phần thông tin nghề nghiệp  */
+/* Thêm border và padding cho các Items phần thông tin nghề nghiệp  */
 .job-info-imtems {
   border: solid 1px rgb(238, 236, 235);
   padding-top: 40px;
@@ -145,6 +119,19 @@ dd {
   padding-right: 40px;
   box-sizing: border-box;
   position: relative;
+}
+
+/* đặt kích thước icon, tạo khoảng cách giữa icon và tiêu đề */
+.job-info-imtems > h1 > i {
+  /* margin-left: 140px;
+  font-size: 30px; */
+  position: absolute;
+  right: 40px;
+}
+/* style color, size cho list-type */
+li::marker {
+  color: rgb(10, 138, 243);
+  font-size: 20px;
 }
 
 /* thêm nút viewmore cho phần thông tin nghề nghiệp */
@@ -174,16 +161,32 @@ dd {
   display: block;
 }
 
-/* đặt kích thước icon, tạo khoảng cách giữa icon và tiêu đề */
-.job-info-imtems > h1 > i {
-  margin-left: 140px;
-  font-size: 30px;
+/* style underline-level cho Ngôn ngữ và kỹ năng */
+.underline-level {
+  width: 30px;
+  height: 2px;
+  background-color: aqua;
+  display: inline-block;
 }
-/* style color, size cho list-type */
-li::marker {
-  color: rgb(10, 138, 243);
-  font-size: 20px;
+.underline-level1 {
+  width: 30px;
+  height: 2px;
+  background-color: aqua;
+  display: inline-block;
 }
+.underline-level2 {
+  width: 30px;
+  height: 2px;
+  background-color: rgb(229, 231, 231);
+  display: inline-block;
+}
+/* Tạo khoảng trắng cho phần kỹ năng */
+.skill-container > div {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 /* Layout-flex cho phần sở thích */
 .Hobby-flex {
   display: flex;
@@ -191,7 +194,8 @@ li::marker {
   align-items: center;
   text-align: center;
 }
-/* thêm border tròn cho các icon */
+
+/* thêm border tròn cho các icon phần sở thích */
 .Hobby-flex > p > i {
   border: solid 1px rgb(4, 167, 243);
   border-radius: 50%;
@@ -203,6 +207,7 @@ li::marker {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
+
 /* Làm mờ, đặt kích thước văn bản trong phần sở thích */
 .Hobby-flex > p {
   font-size: 13px;
@@ -234,13 +239,14 @@ dt {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   line-height: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
+
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* Căn chỉnh cho tiêu đề phần dự án */
 .du-an-title {
-  margin-left: 40px;
+  margin-left: 30px;
   margin-bottom: 40px;
   padding-top: 20px;
 }
