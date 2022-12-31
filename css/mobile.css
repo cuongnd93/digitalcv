@@ -1,39 +1,74 @@
-@media (max-width: 568px) {
-  .nav-flex,
-  .style-link {
-    display: block;
-    width: 100%;
-  }
-  .style-link {
-    padding-bottom: 0px;
-  }
-  .container-certificate {
-    display: block;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
 
-  .cer {
-    border-right: solid 1px #d6c08d;
-    border-bottom: solid 1px #d6c08d;
-  }
-  .container-project {
+/* tạo kiểu cho vùng chứa dự án */
+.dgt {
+  width: 100%;
+
+  background-color: blue;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+/* tạo màu nền cho các items */
+.container {
+  background-color: rgb(231, 250, 250);
+}
+/* màu nền cho thự tự dự án */
+.bg-violet {
+  background-color: rgb(203, 157, 247);
+}
+
+.digital {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* chia cột, hàng  trong grid cho màn hình laptop */
+.goals {
+  grid-row: 1/2;
+}
+.team {
+  grid-row: 1/2;
+}
+.timeline {
+  grid-row: 1/3;
+}
+
+.scopes {
+  grid-row: 2/3;
+}
+.primary {
+  grid-row: 2/3;
+}
+
+thêm border cho các Items .goals,
+.team {
+  border-right: 10px solid blue;
+}
+.scopes,
+.primary {
+  border-right: 10px solid blue;
+  border-top: 10px solid blue;
+}
+/* Phần reposive cho tablet and mobile */
+/* Moblie */
+
+@media (max-width: 568px) {
+  .digital {
     display: block;
   }
-  .cv-project {
-    margin-bottom: 20px;
+  .in-out {
+    display: block;
   }
-  .container-contact,
-  .container-contact i {
-    gap: 0px;
-    margin-left: 10px;
-  }
-  .container-project {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  .certificate {
-    font-size: 12px;
-  }
-  .cer {
-    border-right: none;
+}
+
+@media (max-width: 768px) {
+  .digital {
+    display: block;
   }
 }
