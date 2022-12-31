@@ -49,23 +49,25 @@
           height="150px"
         />
         <nav class="nav-flex">
-          <a class="style-link" href="#">Thông tin<i class="icon-user"></i></a>
+          <a class="style-link" href="#exp"
+            >Thông tin<i class="icon-user"></i
+          ></a>
 
-          <a class="style-link" href="#"
+          <a class="style-link" href="#info"
             >Lý lịch<i class="icon-doc-text-inv"></i
           ></a>
 
-          <div class="style-link nav-hidden">
+          <div class="style-link nav-name nav-hidden">
             <h6>Nguyễn Duy Cường</h6>
             <p style="color: rgb(177, 177, 177); text-align: center" ;>
               Java Developer
             </p>
           </div>
 
-          <a class="style-link" href="#"
+          <a class="style-link" href="#cer"
             >Chứng chỉ<i class="icon-mail-alt"></i
           ></a>
-          <a class="style-link" href="#">Dự Án<i class="icon-star-1"></i></a>
+          <a class="style-link" href="#cv">Dự Án<i class="icon-star-1"></i></a>
         </nav>
       </div>
 
@@ -78,14 +80,14 @@
             <p>
               Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
               của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
-              <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã
-              được trau dồi và không ngừng học hỏi để phát triển bản thân, cũng
-              như hoàn thành tốt nhất công việc được giao.
+              <b>Java Developer</b>, có thể vận dụng những kiến thức đã được
+              trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+              hoàn thành tốt nhất công việc được giao.
             </p>
           </div>
 
           <div class="personal-info col-sm">
-            <h1 class="section-title">Thông tin cá nhân</h1>
+            <h1 id="info" class="section-title">Thông tin cá nhân</h1>
 
             <div class="person-form" id="regex">
               <input
@@ -136,7 +138,7 @@
         <div class="job-info-grid">
           <div class="job-info-imtems ex-item">
             <i class="bi bi-chevron-double-right"></i>
-            <h1>Kinh nghiệm<i class="ic-toolbox"></i></h1>
+            <h1 id="exp">Kinh nghiệm<i class="ic-toolbox"></i></h1>
             <div class="view hidden">▼ ViewMore</div>
             <div class="view1 hidden">▼ Viewless</div>
             <div class="exp hidden">
@@ -284,7 +286,9 @@
       <!-- Phần chứng chỉ -->
 
       <section class="bg-light container certificate">
-        <h1 class="Chung-chi-title pt-4 pb-3">Chứng chỉ - Giải thưởng</h1>
+        <h1 id="cer" class="Chung-chi-title pt-4 pb-3">
+          Chứng chỉ - Giải thưởng
+        </h1>
 
         <div class="container-certificate row row-cols-lg-2 row-cols-md-2 g-4">
           <div class="cer d-lg-flex col">
@@ -356,7 +360,7 @@
 
       <!-- Phần dự án -->
       <section class="container">
-        <h1 class="du-an-title">Dự án</h1>
+        <h1 id="cv" class="du-an-title">Dự án</h1>
         <div class="container-project">
           <!-- Dự án 1 -->
 
@@ -364,8 +368,8 @@
             <img src="images/cv.jpeg" width="100%" />
             <div class="cv-canhan">
               <i class="icon-cv bi bi-chevron-double-left"></i>
-              <a href="https://cuongnd93.github.io/dgt/" target="_blank"
-                >CV CÁ NHÂN</a
+              <a href="http://127.0.0.1:5500/digital-cv.html" target="_blank">
+                CV CÁ NHÂN</a
               >
             </div>
             <div class="info-cv">
@@ -398,8 +402,8 @@
             <img src="images/cv.jpeg" width="100%" />
             <div class="cv-canhan">
               <i class="icon-cv bi bi-chevron-double-left"></i>
-              <a href="https://cuongnd93.github.io/dgt/" target="_blank"
-                >CV CÁ NHÂN</a
+              <a href="http://127.0.0.1:5500/digital-cv.html" target="_blank">
+                CV CÁ NHÂN</a
               >
             </div>
             <div class="info-cv">
@@ -432,8 +436,8 @@
             <img src="images/cv.jpeg" width="100%" />
             <div class="cv-canhan">
               <i class="icon-cv bi bi-chevron-double-left"></i>
-              <a href="https://cuongnd93.github.io/dgt/" target="_blank"
-                >CV CÁ NHÂN</a
+              <a href="http://127.0.0.1:5500/digital-cv.html" target="_blank">
+                CV CÁ NHÂN</a
               >
             </div>
             <div class="info-cv">
@@ -467,20 +471,17 @@
       <section class="bg-light container">
         <div class="container-contact">
           <div>
-            <i class="icon-facebook"></i>
             <a
               href="https://www.facebook.com/profile.php?id=100068673165338"
               target="_blank"
-              >Facebook</a
+              ><i class="icon-facebook"></i>Facebook</a
             >
           </div>
           <div>
-            <i class="icon-linkedin"></i>
-            <a href="#">Linkedin</a>
+            <a href="#"><i class="icon-linkedin"></i>Linkedin</a>
           </div>
           <div>
-            <i class="icon-github-circled"></i>
-            <a href="#">Github</a>
+            <a href="#"><i class="icon-github-circled"></i>Github</a>
           </div>
         </div>
       </section>
