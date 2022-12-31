@@ -194,6 +194,7 @@ li::marker {
   column-gap: 20px;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 /* thêm border tròn cho các icon phần sở thích */
