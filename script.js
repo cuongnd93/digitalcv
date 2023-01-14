@@ -14,7 +14,7 @@ submit.addEventListener('click', function () {
   let textEmail = document.getElementById('email').value;
 
   let result = textEmail.match(regex);
-  document.getElementById('email').innerHTML = result;
+  //document.getElementById('email').innerHTML = result;
   console.log(result);
   if (result) {
     personForm.classList.toggle('hidden');
